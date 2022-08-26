@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web:
-    build: jenkins-pipeline_web
+    build: .
     container_name: fastapi-app
     volumes:
       - .:/code
